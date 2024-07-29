@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling Activities</title>
+    <style>
+        #hoverDiv {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin-top: 20px;
+        }
+        #toggleImage {
+            display: block;
+            margin-top: 20px;
+        }
+        #parentDiv .child {
+            background-color: #ddd;
+            margin-top: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Activity 1 -->
+    <h2>Activity 1: Basic Event Handling</h2>
+    <p id="paragraph">Original Text</p>
+    <button id="changeTextBtn">Change Text</button>
+    <br><br>
+    <img id="toggleImage" src="https://via.placeholder.com/150" alt="Image">
+
+    <!-- Activity 2 -->
+    <h2>Activity 2: Mouse Events</h2>
+    <div id="hoverDiv">Hover over me!</div>
+
+    <!-- Activity 3 -->
+    <h2>Activity 3: Keyboard Events</h2>
+    <input type="text" id="inputField" placeholder="Type something...">
+    <p id="displayParagraph"></p>
+
+    <!-- Activity 4 -->
+    <h2>Activity 4: Form Events</h2>
+    <form id="myForm">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <select id="mySelect">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+    </select>
+    <p id="selectedValue"></p>
+
+    <!-- Activity 5 -->
+    <h2>Activity 5: Event Delegation</h2>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <div id="parentDiv">
+        <button id="addButton">Add Child</button>
+    </div>
+    <script src="./index.js"></script>
+    </body>
+</html>
